@@ -1,3 +1,6 @@
+# Runtime = 7 ms
+# Memory = 12.34 MB
+
 class Solution(object):
     def romanToInt(self, s):
         """
@@ -20,5 +23,6 @@ class Solution(object):
                 y -= numerals[s[i]]
             else:
                 y += numerals[s[i]]
+
 
         return y
