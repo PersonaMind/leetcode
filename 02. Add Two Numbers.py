@@ -1,5 +1,5 @@
 # Runtime = 8 ms
-# Memory = 12.62
+# Memory = 12.62 MB
 
 # Definition for singly-linked list.
 # class ListNode(object):
@@ -30,5 +30,6 @@ class Solution(object):
                 l1 = l1.next
             if l2:
                 l2 = l2.next
+
 
         return dummy.next
