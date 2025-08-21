@@ -24,5 +24,4 @@ class Solution(object):
             else:
                 y += numerals[s[i]]
 
-
         return y
