@@ -1,5 +1,5 @@
 # Runtime = 0 ms
-# Memory = 12.60 mb
+# Memory = 12.60 MB
 
 class Solution(object):
     def lengthOfLastWord(self, s):
@@ -8,4 +8,5 @@ class Solution(object):
         :rtype: int
         """
         s = s.split()
+
         return len(s[-1])
