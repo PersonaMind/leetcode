@@ -1,5 +1,5 @@
 # Runtime = 0 ms
-# Memory = 13.15 mb
+# Memory = 13.15 MB
 
 class Solution(object):
     def twoSum(self, nums, target):
@@ -14,4 +14,5 @@ class Solution(object):
             amount = target - nums[i]
             if amount in numToIndex:
                 return numToIndex[amount], i
+
             numToIndex[nums[i]] = i
